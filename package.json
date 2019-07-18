@@ -1,0 +1,33 @@
+{
+  "name": "webdb-iii-challenge",
+  "version": "1.0.0",
+  "description": "New Recipe DB",
+  "main": "index.js",
+  "scripts": {
+    "server": "nodemon",
+    "test": "I am Groot"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Lockers/webdb-iii-challenge.git"
+  },
+  "keywords": [
+    "Recipe",
+    "Ingredients"
+  ],
+  "author": "Matt Locklin",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Lockers/webdb-iii-challenge/issues"
+  },
+  "homepage": "https://github.com/Lockers/webdb-iii-challenge#readme",
+  "dependencies": {
+    "express": "^4.17.1",
+    "knex": "^0.19.0",
+    "knex-cleaner": "^1.2.1",
+    "sqlite3": "^4.0.9"
+  },
+  "devDependencies": {
+    "nodemon": "^1.19.1"
+  }
+}
